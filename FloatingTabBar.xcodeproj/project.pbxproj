@@ -9,21 +9,36 @@
 /* Begin PBXBuildFile section */
 		39684A6026CA2514008E5907 /* FloatingTabBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39684A4D26CA2512008E5907 /* FloatingTabBarApp.swift */; };
 		39684A6126CA2514008E5907 /* FloatingTabBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39684A4D26CA2512008E5907 /* FloatingTabBarApp.swift */; };
-		39684A6226CA2514008E5907 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39684A4E26CA2512008E5907 /* ContentView.swift */; };
-		39684A6326CA2514008E5907 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39684A4E26CA2512008E5907 /* ContentView.swift */; };
 		39684A6426CA2514008E5907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39684A4F26CA2514008E5907 /* Assets.xcassets */; };
 		39684A6526CA2514008E5907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39684A4F26CA2514008E5907 /* Assets.xcassets */; };
+		39684A7626CA2555008E5907 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39684A6F26CA2555008E5907 /* HomeView.swift */; };
+		39684A7726CA2555008E5907 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39684A6F26CA2555008E5907 /* HomeView.swift */; };
+		39684A7826CA2555008E5907 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39684A7126CA2555008E5907 /* TabBar.swift */; };
+		39684A7926CA2555008E5907 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39684A7126CA2555008E5907 /* TabBar.swift */; };
+		39684A7A26CA2555008E5907 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39684A7226CA2555008E5907 /* TabButton.swift */; };
+		39684A7B26CA2555008E5907 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39684A7226CA2555008E5907 /* TabButton.swift */; };
+		39684A7C26CA2555008E5907 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39684A7326CA2555008E5907 /* ContentView.swift */; };
+		39684A7D26CA2555008E5907 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39684A7326CA2555008E5907 /* ContentView.swift */; };
+		39684A7E26CA2555008E5907 /* TastingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39684A7426CA2555008E5907 /* TastingView.swift */; };
+		39684A7F26CA2555008E5907 /* TastingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39684A7426CA2555008E5907 /* TastingView.swift */; };
+		39684A8026CA2555008E5907 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39684A7526CA2555008E5907 /* SettingView.swift */; };
+		39684A8126CA2555008E5907 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39684A7526CA2555008E5907 /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		39684A4D26CA2512008E5907 /* FloatingTabBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabBarApp.swift; sourceTree = "<group>"; };
-		39684A4E26CA2512008E5907 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		39684A4F26CA2514008E5907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39684A5426CA2514008E5907 /* FloatingTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloatingTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39684A5726CA2514008E5907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39684A5C26CA2514008E5907 /* FloatingTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloatingTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39684A5E26CA2514008E5907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39684A5F26CA2514008E5907 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		39684A6F26CA2555008E5907 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		39684A7126CA2555008E5907 /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		39684A7226CA2555008E5907 /* TabButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		39684A7326CA2555008E5907 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		39684A7426CA2555008E5907 /* TastingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TastingView.swift; sourceTree = "<group>"; };
+		39684A7526CA2555008E5907 /* SettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +72,8 @@
 		39684A4C26CA2512008E5907 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				39684A6E26CA2555008E5907 /* View */,
 				39684A4D26CA2512008E5907 /* FloatingTabBarApp.swift */,
-				39684A4E26CA2512008E5907 /* ContentView.swift */,
 				39684A4F26CA2514008E5907 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -88,6 +103,27 @@
 				39684A5F26CA2514008E5907 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		39684A6E26CA2555008E5907 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				39684A7026CA2555008E5907 /* Tab */,
+				39684A6F26CA2555008E5907 /* HomeView.swift */,
+				39684A7426CA2555008E5907 /* TastingView.swift */,
+				39684A7526CA2555008E5907 /* SettingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		39684A7026CA2555008E5907 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				39684A7126CA2555008E5907 /* TabBar.swift */,
+				39684A7226CA2555008E5907 /* TabButton.swift */,
+				39684A7326CA2555008E5907 /* ContentView.swift */,
+			);
+			path = Tab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,8 +223,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39684A6226CA2514008E5907 /* ContentView.swift in Sources */,
+				39684A7626CA2555008E5907 /* HomeView.swift in Sources */,
+				39684A7C26CA2555008E5907 /* ContentView.swift in Sources */,
 				39684A6026CA2514008E5907 /* FloatingTabBarApp.swift in Sources */,
+				39684A7A26CA2555008E5907 /* TabButton.swift in Sources */,
+				39684A8026CA2555008E5907 /* SettingView.swift in Sources */,
+				39684A7E26CA2555008E5907 /* TastingView.swift in Sources */,
+				39684A7826CA2555008E5907 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +237,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39684A6326CA2514008E5907 /* ContentView.swift in Sources */,
+				39684A7726CA2555008E5907 /* HomeView.swift in Sources */,
+				39684A7D26CA2555008E5907 /* ContentView.swift in Sources */,
 				39684A6126CA2514008E5907 /* FloatingTabBarApp.swift in Sources */,
+				39684A7B26CA2555008E5907 /* TabButton.swift in Sources */,
+				39684A8126CA2555008E5907 /* SettingView.swift in Sources */,
+				39684A7F26CA2555008E5907 /* TastingView.swift in Sources */,
+				39684A7926CA2555008E5907 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

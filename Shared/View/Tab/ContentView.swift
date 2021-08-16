@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Shared
+//  TestingYourLife (iOS)
 //
 //  Created by MIN on 2021/08/16.
 //
@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    init() {
+        UITabBar.appearance().isHidden = true
+    }
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+
+        
+        TabBar()
     }
 }
 
